@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Piljun Kim (김필준)
-
-A data analyst passionate about driving business value through data.  
-I specialize in **statistical modeling**, **time series forecasting**, and **machine learning** using **Python**, **R**, and **SQL**.
-
+<div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=080808&height=120&text=Hi,%20I'm%20Piljun%20Kim%20(김필준)&animation=fadeIn&fontColor=ffffff&fontSize=50" />
+    </div>
+    
 ---
 
 ### 🛠 Tech Stack
