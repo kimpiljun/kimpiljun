@@ -1,34 +1,63 @@
-# 👋 Hi, I'm Piljun Kim (김필준)
+📊 Recruitment Funnel & Retention Analysis
 
-A data analyst passionate about driving business value through data.  
-I specialize in statistical modeling, time series forecasting, and machine learning using **Python**, **R**, and **SQL**.
-
----
-
-### 🛠 Tech Stack  
-- **Languages**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-
-- **Tools**: GitHub, Jupyter Notebook, RStudio, Notion  
-- **Skills**: Modeling, EDA, Funnel analysis, Forecasting, A/B Testing
+This project analyzes user behavior on a recruitment platform using funnel metrics and retention cohorts. The goal is to identify user drop-off points and improve long-term engagement and conversion.
 
 ---
 
-### 🔍 Projects  
-- 🎮 LoL MMR Customization & Game Impact Modeling  
-- 🚇 Subway Congestion Forecasting with Weather + XGBoost  
-- 📊 Recruitment Funnel & Retention Analysis  
-- 🐶 Stray Animal Pattern Mining (Text + Time Series)
+📌 Objective
+
+To diagnose the onboarding process and user lifecycle on a recruitment platform by analyzing funnel stages, user conversion rates, and retention over time.
 
 ---
 
-### 🎓 Education  
-- B.A. in Data Science, Hallym University  
-- Minor in Statistical Epidemiology  
-- Codeit Bootcamp (Ongoing)
+🧪 Methods & Tools
+
+Funnel Analysis: View → Sign-up → Resume Submission → Application
+
+Retention Analysis: Weekly cohort retention tracking based on first activity
+
+Framework: AARRR (Acquisition, Activation, Retention, Revenue, Referral)
+
+Tools: pandas, matplotlib, seaborn, plotly, numpy
 
 ---
 
-📫 [Notion Portfolio](https://notion.so/abbb0b673a594e5899f3ad4a2880e666)  
-📧 kimpj1997@naver.com
+🔍 Key Findings
+
+New users had 2x higher application activity than existing users
+
+Major drop-off observed between resume submission and final application
+
+Strong retention correlated with fast activation within 24 hours
+
+---
+
+📁 Files
+
+Marketing Analysis.ipynb : Main analysis notebook containing EDA, funnel, and retention plots
+
+---
+
+📈 Sample Visualizations
+
+Funnel chart with conversion % at each step
+
+Retention heatmap by cohort week
+
+Daily active user trend
+
+---
+
+🧠 Insights & Suggestions
+
+Improve activation rate with guided onboarding (e.g. email or chat assist)
+
+Trigger re-engagement for resume upload incompletes
+
+Personalize UX for high-intent cohorts based on early behavior
+
+---
+
+📬 Contact
+
+Created by Piljun Kim📧 kimpj1997@naver.com🔗 Portfolio
