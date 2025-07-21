@@ -1,34 +1,63 @@
-# 👋 Hi, I'm Piljun Kim (김필준)
+🎮 LoL MMR 게임 영향력 모델링 프로젝트
 
-A data analyst passionate about driving business value through data.  
-I specialize in statistical modeling, time series forecasting, and machine learning using **Python**, **R**, and **SQL**.
-
+이 프로젝트는 단순한 승패 결과가 아닌, 실제 게임 내 퍼포먼스를 기반으로 한 리그 오브 레전드(LoL)의 맞춤형 MMR(Matchmaking Rating) 시스템을 구축하는 것을 목표로 합니다. 상세한 전적 데이터를 분석하여 각 플레이어의 영향력을 수치화하고, 이를 기반으로 부정 행위자 탐지, 공정한 매칭, 대회 선발 등에 활용할 수 있는 정교한 점수 체계를 설계합니다.
 ---
+🎯 목표
 
-### 🛠 Tech Stack  
-- **Languages**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-
-- **Tools**: GitHub, Jupyter Notebook, RStudio, Notion  
-- **Skills**: Modeling, EDA, Funnel analysis, Forecasting, A/B Testing
-
+승패에만 의존하지 않고, 실제 개인 기여도를 반영한 퍼포먼스 기반 MMR 시스템을 구축합니다.
 ---
+📂 데이터 및 도구
 
-### 🔍 Projects  
-- 🎮 LoL MMR Customization & Game Impact Modeling  
-- 🚇 Subway Congestion Forecasting with Weather + XGBoost  
-- 📊 Recruitment Funnel & Retention Analysis  
-- 🐶 Stray Animal Pattern Mining (Text + Time Series)
+데이터 출처: 공개된 LoL 전적 로그 + 자체 라벨링 데이터
 
+주요 변수: 킬, 어시스트, 딜량, 골드, 시야 점수, 오브젝트 기여도 등
+
+사용 도구: Python, R, SQL, pandas, scikit-learn, seaborn, matplotlib
 ---
+📊 분석 방법론
 
-### 🎓 Education  
-- B.A. in Data Science, Hallym University  
-- Minor in Statistical Epidemiology  
-- Codeit Bootcamp (Ongoing)
+정규화된 퍼포먼스 지표를 기반으로 Game Impact Score 계산
 
+RandomForestClassifier를 활용한 부정 사용자 탐지
+
+군집 분석으로 유사 플레이어 유형 분류
+
+- MMR 조정 모델 설계:
+
+  - 패배했지만 영향력이 큰 경우 가산점
+  
+  - 승리했지만 영향력이 낮은 경우 감점
+
+  - 평균적 성과는 안정적인 점수 유지
 ---
+🔍 주요 특징
 
-📫 [Notion Portfolio](https://notion.so/abbb0b673a594e5899f3ad4a2880e666)  
-📧 kimpj1997@naver.com
+포지션별 퍼포먼스를 고려한 맞춤 점수 시스템
+
+이상치 탐지 기능 포함 (ex. 치트 사용자, 언더퍼포머, 스머프)
+
+역할 기반 정규화로 공정한 비교 가능
+
+최종 점수는 0~100 사이로 스케일링
+---
+📁 프로젝트 구조
+
+data/: 전처리된 데이터 및 원본 전적 로그
+
+eda/: 게임 영향력 분포, 변수 중요도, 플레이어 행동 패턴 분석
+
+modeling/: 분류기 학습 및 MMR 계산 로직 구현
+
+MMR_report.pdf: 전체 모델 요약 및 시각화 리포트
+---
+📌 활용 사례
+
+스머프(고수 부계정) 탐지
+
+대회 선발 시 공정성 제고
+
+커뮤니티 서버의 맞춤 매칭 알고리즘 개선
+---
+🧑‍💻 작성자
+
+작성자: 김필준 (Piljun Kim)📧 이메일: kimpj1997@naver.com🔗 포트폴리오 링크
