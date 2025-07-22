@@ -8,6 +8,14 @@
 I specialize in statistical modeling, time series forecasting, and machine learning using **Python**, **R**, and **SQL**.
 
 ---
+## 🎓 Education
+
+Hallym University
+Major : **Data Technology**
+Minor : **clinical medical statistics**
+
+---
+
 
 ## 🛠️ Main Stacks
 
