@@ -45,7 +45,12 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 
 ## Main Project
 
-- [<img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="512" height="512" alt="MMR Project Image" />](https://github.com/kimpiljun/MMR_project)
+## 📌 MMR 프로젝트 대표 이미지
+
+[<img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="512" height="512" alt="MMR Project Image" />](https://github.com/kimpiljun/MMR_project)
+
+🕹️ **Game Impact Modeling**: Quantified player performance in LoL using game data and designed a custom MMR system.
+
 - [![🚇](https://img.shields.io/badge/Subway_Congestion-000000?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine)
   **Subway Congestion Forecasting**: Built XGBoost model using weather + congestion data.
 
