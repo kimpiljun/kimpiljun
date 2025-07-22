@@ -23,4 +23,3 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 [![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://www.notion.so/abbb0b673a594e5899f3ad4a2880e666?source=copy_link)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:kimpillj@gmail.com)
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/kimpiljun&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=GitHub+Profile+Views&edge_flat=false)](https://hits.seeyoufarm.com)
