@@ -59,6 +59,15 @@ I specialize in statistical modeling, time series forecasting, and machine learn
   </tr>
 </table>
 
+<br> <!-- space -->
+<br> <!-- space -->
+
+---
+ 
+<br> <!-- space -->
+<br> <!-- space -->
+
+
 <table>
   <tr>
     <td>
