@@ -86,7 +86,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 <br> <!-- space -->
 <br> <!-- space -->
 
-
+---
  
 ## 🧑‍💻 Contact Me
 
