@@ -44,4 +44,4 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 
 ## Main Project
 
-[![League of Legends](https://im](https://github.com/kimpiljun/MMR_project)g.shields.io/badge/LeagueOfLegends-C28F2C?style=for-the-badge&logo=leagueoflegends&logoColor=white)
+[![MMR Project](https://img.shields.io/badge/MMR_Project-C28F2C?style=for-the-badge&logo=leagueoflegends&logoColor=white)](https://github.com/kimpiljun/MMR_project)
