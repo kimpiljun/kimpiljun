@@ -49,7 +49,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
   <tr>
     <td>
       <a href="https://github.com/kimpiljun/MMR_project" target="_blank">
-        <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="70" alt="MMR 대표 이미지">
+        <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="50" alt="MMR 대표 이미지">
       </a>
     </td>
     <td style="vertical-align: middle; padding-left: 10px;">
@@ -57,10 +57,14 @@ I specialize in statistical modeling, time series forecasting, and machine learn
         <a href="https://github.com/kimpiljun/MMR_project" target="_blank" style="text-decoration: none; color: #000000;">
           🎮 LoL MMR 게임 영향력 모델링 프로젝트
         </a>
-      </strong>: 게임 데이터를 사용하여 LoL에서 플레이어 성능을 정량화하고 맞춤형 MMR 시스템을 설계했습니다.<br>
+      </strong><br>
       <span style="color: gray;">
         Game Impact Modeling: I used game data to quantify player performance in LoL and designed a custom MMR system.
-      </span>
+      </span><br><br> <!-- 배지를 위한 추가 줄바꿈 -->
+      ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
+      ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
+      ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+      ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=atlassianconfluence&logoColor=white)
     </td>
   </tr>
 </table>
