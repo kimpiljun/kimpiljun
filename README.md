@@ -25,4 +25,4 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 
 ---
 
-[![mmr_project](#C28F2C)]
+![League of Legends](https://img.shields.io/badge/LeagueOfLegends-C28F2C?style=for-the-badge&logo=leagueoflegends&logoColor=white)
