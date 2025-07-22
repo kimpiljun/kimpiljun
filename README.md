@@ -31,14 +31,6 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 
 
 ---
- 
-## 🧑‍💻 Contact Me
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](#)
-[![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://www.notion.so/abbb0b673a594e5899f3ad4a2880e666?source=copy_link)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:kimpillj@gmail.com)
-
----
 
 ## Main Project
 
@@ -85,7 +77,12 @@ I specialize in statistical modeling, time series forecasting, and machine learn
       </span><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
       <img src="https://img.shields.io/badge/XGBoost-F3F6F6?style=for-the-badge&logo=xgboost&logoColor=black" alt="XGBoost">
-      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-    </td>
-  </tr>
-</table>
+
+---
+ 
+## 🧑‍💻 Contact Me
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](#)
+[![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://www.notion.so/abbb0b673a594e5899f3ad4a2880e666?source=copy_link)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:kimpillj@gmail.com)
+
