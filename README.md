@@ -68,18 +68,18 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 <table>
   <tr>
     <td>
-      <a href="https://github.com/kimpiljun/MMR_project" target="_blank">
-        <img" src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846 width="120" alt="MMR 프로젝트 이미지">
+      <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank">
+        <img src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="120" alt="지하철 혼잡도 예측 이미지">
       </a>
-    </td>>
+    </td>
     <td style="vertical-align: middle; padding-left: 10px;">
       <strong>
         <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank" style="text-decoration: none; color: #000000;">
           🚇 지하철 혼잡도 예측
         </a>
-      </strong>: 날씨 + 혼잡 데이터를 사용하여 구축된 XGBoost 모델.<br>
+      </strong><br>
       <span style="color: gray;">
-        Subway Congestion Forecasting: Built XGBoost model using weather + congestion data.
+        날씨 + 혼잡 데이터를 사용하여 구축된 XGBoost 모델.<br>Subway Congestion Forecasting: Built XGBoost model using weather + congestion data.
       </span>
     </td>
   </tr>
