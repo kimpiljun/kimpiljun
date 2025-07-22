@@ -13,6 +13,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 Hallym University
 Major : **Data Technology**
 Minor : **clinical medical statistics**
+Bootcamp: **Code It Data Analyst Track**
 
 ---
 
