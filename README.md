@@ -54,8 +54,10 @@ I specialize in statistical modeling, time series forecasting, and machine learn
       </a>
     </td>
     <td style="vertical-align: middle; padding-left: 10px;">
-      <strong>🎮 게임 영향력 모델링: 게임 데이터를 사용하여 LoL에서 플레이어 성능을 정량화하고 맞춤형 MMR 시스템을 설계했습니다.</strong><br>
-      Game Impact Modeling: I used game data to quantify player performance in LoL and designed a custom MMR system.
+      <a href="https://github.com/kimpiljun/MMR_project" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>🎮 게임 영향력 모델링:</strong> 게임 데이터를 사용하여 LoL에서 플레이어 성능을 정량화하고 맞춤형 MMR 시스템을 설계했습니다.<br>
+        <span style="color: gray;">Game Impact Modeling: I used game data to quantify player performance in LoL and designed a custom MMR system.</span>
+      </a>
     </td>
   </tr>
 </table>
