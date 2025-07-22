@@ -60,7 +60,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
       </strong><br>
       <span style="color: gray;">
         Game Impact Modeling: I used game data to quantify player performance in LoL and designed a custom MMR system.
-      </span><br><br> <!-- 배지를 위한 추가 줄바꿈 -->
+      </span><br><br>
       ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
       ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
       ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
