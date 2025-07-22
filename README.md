@@ -49,7 +49,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
   <tr>
     <td>
       <a href="https://github.com/kimpiljun/MMR_project" target="_blank">
-        <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="50" alt="MMR 대표 이미지">
+        <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="70" alt="MMR 대표 이미지">
       </a>
     </td>
     <td style="vertical-align: middle; padding-left: 10px;">
@@ -69,7 +69,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
   <tr>
     <td>
       <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank">
-        <img src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="120" alt="지하철 혼잡도 예측 이미지">
+        <img src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="70" alt="지하철 혼잡도 예측 이미지">
       </a>
     </td>
     <td style="vertical-align: middle; padding-left: 10px;">
