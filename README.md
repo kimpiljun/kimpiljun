@@ -68,8 +68,10 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 <table>
   <tr>
     <td>
-      <img src=src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="50" alt="혼잡도 대표 이미지">
-    </td>
+      <a href="https://github.com/kimpiljun/MMR_project" target="_blank">
+        <image" src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846 width="120" alt="MMR 프로젝트 이미지">
+      </a>
+    </td>>
     <td style="vertical-align: middle; padding-left: 10px;">
       <strong>
         <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank" style="text-decoration: none; color: #000000;">
