@@ -63,9 +63,20 @@ I specialize in statistical modeling, time series forecasting, and machine learn
   </tr>
 </table>
 
-
-
-- [![🚇](https://img.shields.io/badge/Subway_Congestion-000000?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine)
-  **Subway Congestion Forecasting**: Built XGBoost model using weather + congestion data.
-
-
+<table>
+  <tr>
+    <td>
+      <img src=src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="50" alt="MMR 대표 이미지">
+    </td>
+    <td style="vertical-align: middle; padding-left: 10px;">
+      <strong>
+        <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank" style="text-decoration: none; color: #000000;">
+          🚇 지하철 혼잡도 예측
+        </a>
+      </strong>: 날씨 + 혼잡 데이터를 사용하여 구축된 XGBoost 모델.<br>
+      <span style="color: gray;">
+        Subway Congestion Forecasting: Built XGBoost model using weather + congestion data.
+      </span>
+    </td>
+  </tr>
+</table>
