@@ -10,10 +10,12 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 ---
 ## 🎓 Education
 
-**Hallym University**
-Major : **Data Technology**
-Minor : **clinical medical statistics**
-Bootcamp: **Code It Data Analyst Track**
+**Hallym University**  
+Major : **Data Technology**  
+Minor : **Clinical Medical Statistics**  
+
+**Bootcamp**  
+Code It Data Analyst Track
 
 ---
 
