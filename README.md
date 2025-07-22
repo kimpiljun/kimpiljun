@@ -74,10 +74,10 @@ I specialize in statistical modeling, time series forecasting, and machine learn
   <tr>
     <td>
       <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank">
-        <img src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="70" alt="지하철 혼잡도 예측 이미지">
+        <img src="https://github.com/user-attachments/assets/3897fe38-50ed-4d07-98fd-43f0c63ea846" width="120" alt="지하철 혼잡도 예측 이미지">
       </a>
     </td>
-    <td style="vertical-align: middle; padding-left: 10px;">
+    <td style="vertical-align: top; padding-left: 10px;">
       <strong>
         <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank" style="text-decoration: none; color: #000000;">
           🚇 지하철 혼잡도 예측
@@ -85,7 +85,10 @@ I specialize in statistical modeling, time series forecasting, and machine learn
       </strong><br>
       <span style="color: gray;">
         날씨 + 혼잡 데이터를 사용하여 구축된 XGBoost 모델.<br>Subway Congestion Forecasting: Built XGBoost model using weather + congestion data.
-      </span>
+      </span><br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/XGBoost-F3F6F6?style=for-the-badge&logo=xgboost&logoColor=black" alt="XGBoost">
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
     </td>
   </tr>
 </table>
