@@ -47,7 +47,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 
 <table>
   <tr>
-    <td
+    <td>
       <a href="https://github.com/kimpiljun/MMR_project" target="_blank">
         <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="50" alt="MMR 대표 이미지">
       </a>
