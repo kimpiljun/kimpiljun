@@ -48,7 +48,7 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 ## 🎮 MMR 프로젝트 대표 이미지
 
 <a href="https://github.com/kimpiljun/MMR_project" target="_blank">
-  <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="400" alt="MMR Project Image">
+  <img src="https://github.com/user-attachments/assets/869eb329-11d3-4dc3-a350-e8aa5499fb9d" width="200" alt="MMR Project Image">
 </a>
 
 **Game Impact Modeling**: Quantified player performance in LoL using game data and designed a custom MMR system.
