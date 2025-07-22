@@ -77,14 +77,9 @@ I specialize in statistical modeling, time series forecasting, and machine learn
       </span><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
       <img src="https://img.shields.io/badge/XGBoost-F3F6F6?style=for-the-badge&logo=xgboost&logoColor=black" alt="XGBoost">
-
-<br> <!-- space -->
-<br> <!-- space -->
-
----
- 
-<br> <!-- space -->
-<br> <!-- space -->
+        </td>
+  </tr>
+</table>
 
 ---
  
