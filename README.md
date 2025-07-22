@@ -11,8 +11,8 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 ## 🎓 Education
 
 **Hallym University**  
-Major : **Data Technology**  
-Minor : **Clinical Medical Statistics**  
+Major : **Data Technology(데이터 테크)**  
+Minor : **Clinical Medical Statistics(임상의학통계)**  
 
 **Bootcamp**  
 Code It Data Analyst Track
