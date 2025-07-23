@@ -9,9 +9,13 @@ I specialize in statistical modeling, time series forecasting, and machine learn
 
 ---
 
-### 📝 Summary
-> ** 데이터로 세상을 더 명확하게 읽어내는 데이터 분석가, 김필준입니다.**
-> 통계 모델링, 시계열 예측, 머신러닝을 바탕으로 실제 비즈니스 가치를 창출하는 데 집중하고 있으며, 복잡한 현상 속에서도 인사이트를 뽑아내는 것을 좋아합니다. 다양한 프로젝트를 통해 실무 중심의 분석 경험을 쌓았고, 앞으로도 기술과 데이터로 문제를 해결하는 데 기여하고자 합니다.
+### 📝  Summary  
+
+> **김필준(Piljun Kim)은 데이터를 통해 세상을 이해하고, 의미 있는 인사이트를 도출하는 데이터 분석가입니다.**  
+> 통계 모델링, 시계열 예측, 머신러닝 기반 분석을 통해 실제 비즈니스 가치를 창출하는 데 집중해왔으며, 다양한 프로젝트를 통해 실무 경험을 쌓아왔습니다. 복잡한 데이터 속 패턴을 발견하고 이를 해결책으로 전환하는 과정을 즐깁니다.
+
+> **Piljun Kim is a data analyst who makes sense of the world through data.**  
+> He focuses on delivering real business value through statistical modeling, time series forecasting, and machine learning. He enjoys uncovering patterns in complex data and has built hands-on experience through a wide range of projects. His goal is to solve real-world problems by combining data, technology, and purpose.
 
 
 ---
