@@ -8,6 +8,13 @@
 I specialize in statistical modeling, time series forecasting, and machine learning using **Python**, **R**, and **SQL**.
 
 ---
+
+### 📝 Summary
+> ** 데이터로 세상을 더 명확하게 읽어내는 데이터 분석가, 김필준입니다.**
+> 통계 모델링, 시계열 예측, 머신러닝을 바탕으로 실제 비즈니스 가치를 창출하는 데 집중하고 있으며, 복잡한 현상 속에서도 인사이트를 뽑아내는 것을 좋아합니다. 다양한 프로젝트를 통해 실무 중심의 분석 경험을 쌓았고, 앞으로도 기술과 데이터로 문제를 해결하는 데 기여하고자 합니다.
+
+
+---
 ## 🎓 Education
 
 **Hallym University**  
