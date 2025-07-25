@@ -67,7 +67,7 @@ Code It Data Analyst Track
     <td style="vertical-align: top; padding-left: 10px;">
       <strong>
         <a href="https://github.com/kimpiljun/MMR_project" target="_blank" style="text-decoration: none; color: #000000;">
-          🎮 LoL MMR 게임 영향력 모델링 프로젝트
+          🎮 LoL 사용자 설정 게임 기반 MMR 지표 개발 및 실제 서비스 제공
         </a>
       </strong><br>
       <span style="color: gray;">
