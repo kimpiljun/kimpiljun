@@ -104,6 +104,27 @@ Code It Data Analyst Track
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/kimpiljun/Analysis-of-organic-animal-status" target="_blank">
+        <img  src="https://github.com/user-attachments/assets/314f0c78-e70a-46bd-baf4-186f78faa8c6">
+      </a>
+    </td>
+    <td style="vertical-align: top; padding-left: 10px;">
+      <strong>
+        <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank" style="text-decoration: none; color: #000000;">
+          🚇 지하철 혼잡도 예측
+        </a>
+      </strong><br>
+      <span style="color: gray;">
+        날씨 + 혼잡 데이터를 사용하여 구축된 XGBoost 모델.<br>Subway Congestion Forecasting: Built XGBoost model using weather + congestion data.
+      </span><br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/XGBoost-F3F6F6?style=for-the-badge&logo=xgboost&logoColor=black" alt="XGBoost">
+    </td>
+  </tr>
+</table>
 ---
  
 ## 🧑‍💻 Contact Me
