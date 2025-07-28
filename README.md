@@ -113,7 +113,7 @@ Code It Data Analyst Track
     </td>
     <td style="vertical-align: top; padding-left: 10px;">
       <strong>
-        <a href="https://github.com/kimpiljun/Weather-Prediction-Subway-Congestion-XGBoost-Experimental-Machine" target="_blank" style="text-decoration: none; color: #000000;">
+        <a href="https://github.com/kimpiljun/Analysis-of-organic-animal-status" target="_blank" style="text-decoration: none; color: #000000;">
           🚇 지하철 혼잡도 예측
         </a>
       </strong><br>
