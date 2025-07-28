@@ -100,6 +100,7 @@ Code It Data Analyst Track
       </span><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
       <img src="https://img.shields.io/badge/XGBoost-F3F6F6?style=for-the-badge&logo=xgboost&logoColor=black" alt="XGBoost">
+      <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code">
     </td>
   </tr>
 </table>
@@ -122,6 +123,7 @@ Code It Data Analyst Track
       </span><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
       <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=R&logoColor=white" alt="R">
+      <img src="https://img.shields.io/badge/RStudio-4284BE?style=for-the-badge&logo=rstudio&logoColor=white" alt="RStudio">
     </td>
   </tr>
 </table>
