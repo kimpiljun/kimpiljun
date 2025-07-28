@@ -114,14 +114,14 @@ Code It Data Analyst Track
     <td style="vertical-align: top; padding-left: 10px;">
       <strong>
         <a href="https://github.com/kimpiljun/Analysis-of-organic-animal-status" target="_blank" style="text-decoration: none; color: #000000;">
-          🚇 지하철 혼잡도 예측
+          🐾 유기동물 발생 요인 분석 프로젝트
         </a>
       </strong><br>
       <span style="color: gray;">
-        날씨 + 혼잡 데이터를 사용하여 구축된 XGBoost 모델.<br>Subway Congestion Forecasting: Built XGBoost model using weather + congestion data.
+        연관 규칙 분석 및 시계열 분석을 통한 특징 및 예방 법안 제안<br>Proposed features and prevention legislation through association rule analysis and time series analysis.
       </span><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/XGBoost-F3F6F6?style=for-the-badge&logo=xgboost&logoColor=black" alt="XGBoost">
+      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge\&logo=R\&logoColor=white" alt="R">
     </td>
   </tr>
 </table>
