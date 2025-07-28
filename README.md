@@ -121,7 +121,7 @@ Code It Data Analyst Track
         연관 규칙 분석 및 시계열 분석을 통한 특징 및 예방 법안 제안<br>Proposed features and prevention legislation through association rule analysis and time series analysis.
       </span><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge\&logo=R\&logoColor=white" alt="R">
+      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=R&logoColor=white" alt="R">
     </td>
   </tr>
 </table>
