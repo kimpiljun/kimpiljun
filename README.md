@@ -108,7 +108,7 @@ Code It Data Analyst Track
   <tr>
     <td>
       <a href="https://github.com/kimpiljun/Analysis-of-organic-animal-status" target="_blank">
-        <img  src="https://github.com/user-attachments/assets/314f0c78-e70a-46bd-baf4-186f78faa8c6">
+        <img  src="https://github.com/user-attachments/assets/314f0c78-e70a-46bd-baf4-186f78faa8c6" width="100" alt="유기동물 분석 대표 이미지">
       </a>
     </td>
     <td style="vertical-align: top; padding-left: 10px;">
