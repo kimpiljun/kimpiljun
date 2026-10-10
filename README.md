@@ -57,6 +57,18 @@ Code It Data Analyst Track
 
 ## Main Project
 
+### 🧴 뷰티 텍스트 데이터 기반 트렌드 탐색 · 아누아 심층 리서치
+
+[프로젝트 README 및 코드 보기](projects/beauty-trend-analysis)
+
+국내 뷰티 기사·공개 리포트를 크롤링하고, 텍스트 정제·TF-IDF·개념별 언급 비중 분석으로 트렌드 후보를 탐색합니다. 발견한 키워드를 아누아 제품 조사로 연결하는 개인 리서치 프로젝트입니다.
+
+**Python · BeautifulSoup · pandas · scikit-learn · HTML 대시보드**
+
+진행 상태: 수집·분석 파이프라인 구현 및 23건 소량 자료 검증. 기간별 데이터 확장과 최종 트렌드 선정은 진행 예정입니다.
+
+---
+
 <table>
   <tr>
     <td>

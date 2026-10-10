@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>뷰티 리서치 · 데이터 탐색</title>
+<style>
+:root{--ink:#193b35;--muted:#667b75;--line:#d9e3de;--bg:#f3f6f2;--accent:#247c65}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 'Malgun Gothic',system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:40px 30px 70px}header{display:flex;justify-content:space-between;gap:24px;align-items:center}.eyebrow{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:700}h1{font-size:34px;letter-spacing:-1px;margin:5px 0}h2{font-size:20px;margin:0 0 8px}p{margin:0;color:var(--muted)}.stamp{font-size:12px;white-space:nowrap}.notice{background:#fff7de;border-left:4px solid #c99a30;padding:14px 18px;margin:25px 0;color:#705c25}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card,.panel{background:white;border:1px solid var(--line);border-radius:15px;padding:23px}.card span{display:block;font-size:13px;color:var(--muted)}.card strong{display:block;font-size:35px;line-height:1.5}.card small{color:var(--muted)}.filters{display:flex;align-items:end;flex-wrap:wrap;gap:14px;margin:25px 0}.field{display:grid;gap:5px}.field label{font-size:12px;font-weight:700}select,input,button{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}input[type=search]{width:260px}button{cursor:pointer}button:hover{background:#e6f0eb}.grid{display:grid;grid-template-columns:1.4fr 1fr;gap:18px}.sub{font-size:12px;margin-bottom:18px}.bar-row{display:grid;grid-template-columns:125px 1fr 94px;gap:10px;align-items:center;margin:13px 0}.bar-label{font-size:13px}.track{height:13px;background:#edf2ef;border-radius:4px;overflow:hidden}.fill{height:100%;background:var(--accent);border-radius:4px;transition:width .25s}.value{text-align:right;font-size:12px;font-variant-numeric:tabular-nums}.empty{padding:24px;color:var(--muted)}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:12px 8px;vertical-align:top}th{color:var(--muted);font-weight:500}.table-wrap{overflow:auto}.articles{margin-top:20px}a{color:#246e5c;text-decoration:none}a:hover{text-decoration:underline}.tag{display:inline-block;margin:2px 4px 2px 0;padding:2px 7px;border-radius:4px;background:#eaf3ed;font-size:11px;white-space:nowrap}.date{white-space:nowrap}details{margin-top:20px;padding:18px 22px;background:#e8eee8;border-radius:12px}summary{cursor:pointer;font-weight:700}.steps{margin:12px 0 0;padding-left:22px;color:#4b635b}footer{margin-top:25px;color:var(--muted);font-size:12px}.coverage td:last-child{text-align:right}.check{display:flex;gap:7px;align-items:center;min-height:44px;font-size:13px}.count{color:var(--accent);font-size:14px;margin-left:8px}@media(max-width:850px){main{padding:22px 16px}.cards{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}header{display:block}.stamp{margin-top:10px}h1{font-size:27px}.bar-row{grid-template-columns:100px 1fr 88px}input[type=search]{width:100%}}
+</style>
+</head>
+<body><main>
+<header><div><div class="eyebrow">BEAUTY RESEARCH / ANUA PROJECT</div><h1>데이터로 살펴보는 뷰티 키워드</h1><p>수집한 기사를 탐색하고, 아누아 심층 조사의 출발점을 찾습니다.</p></div><div class="stamp" id="stamp"></div></header>
+<div class="notice" id="notice"></div>
+<section class="cards">
+<div class="card"><span>저장된 자료</span><strong id="allCount"></strong><small>중복 제거 후 · 참고 자료 포함</small></div>
+<div class="card"><span>현재 선택된 기사</span><strong id="articleCount"></strong><small>키워드 비중의 분모</small></div>
+<div class="card"><span>아누아 관련 기사</span><strong id="brandCount"></strong><small>현재 선택 범위 내</small></div>
+<div class="card"><span>비교 연도 상태</span><strong id="yearState" style="font-size:25px"></strong><small>전체 기사에서 2025 / 2026 확인</small></div>
+</section>
+<section class="filters" aria-label="자료 필터">
+<div class="field"><label for="source">기사 출처</label><select id="source"><option value="">전체</option></select></div>
+<div class="field"><label for="month">게시 월</label><select id="month"><option value="">전체 기간</option></select></div>
+<div class="field"><label for="search">기사 제목 검색</label><input type="search" id="search" placeholder="예: 장벽, 세럼, 아누아"></div>
+<label class="check"><input type="checkbox" id="anua">아누아 관련만 보기</label>
+<button id="reset">필터 초기화</button>
+</section>
+<div class="grid">
+<section class="panel"><h2>키워드 언급 비중</h2><p class="sub">선택한 기사 중 해당 개념을 언급한 비율입니다. 한 기사가 여러 개념을 포함할 수 있습니다.</p><div id="bars"></div></section>
+<section class="panel"><h2>수집 범위 확인</h2><p class="sub">전체 저장 자료 기준입니다. 날짜가 비어 있는 기간은 수집을 보완해야 합니다.</p><div class="table-wrap"><table class="coverage"><thead><tr><th>출처</th><th>게시 월</th><th>구분</th><th>문서</th></tr></thead><tbody id="coverage"></tbody></table></div><details><summary>이 결과를 어떻게 읽나요?</summary><ul class="steps"><li>기사는 업계에서 어떤 표현을 쓰는지 보여줍니다. 판매량이나 소비자 수요 그 자체는 아닙니다.</li><li>화해의 선택 리포트는 참고 자료이며 키워드 비중에서 제외합니다.</li><li>같은 기간의 전년도 자료와 다른 매체를 확보한 후 변화 여부를 판단합니다.</li><li>후보 개념 사전으로 집계한 결과이며, 아직 핵심 트렌드를 확정하지 않았습니다.</li></ul></details></section>
+</div>
+<section class="panel articles"><h2>기사 탐색<span id="listCount" class="count"></span></h2><p class="sub">제목을 누르면 원문이 열립니다. 필터를 바꾸면 위 차트도 함께 바뀝니다.</p><div class="table-wrap"><table><thead><tr><th>게시일</th><th>제목 / 원문</th><th>발견된 개념</th></tr></thead><tbody id="articles"></tbody></table></div></section>
+<section class="panel articles"><h2>별도 참고 자료</h2><div id="references"></div></section>
+<details><summary>데이터를 새로 수집하려면</summary><ol class="steps"><li>프로젝트 폴더의 <b>start.bat</b>을 더블클릭합니다.</li><li><b>2</b>를 입력하면 새 기사 수집 → 분석 → 이 화면 생성 순으로 실행됩니다.</li><li>수집 중에는 검은 실행 창에서 진행 상황을 볼 수 있습니다.</li><li>이 화면은 생성 시점의 결과입니다. HTML에서 새로고침만 해서는 새 기사를 수집하지 않습니다.</li></ol></details>
+<footer>개인 리서치용 화면 · 결과와 원문을 검토한 뒤 포트폴리오에 활용하세요. 전체 본문은 화면에 재게시하지 않습니다.</footer>
+</main><script id="data" type="application/json">__DATA_JSON__</script>
+<script>
+'use strict';
+const DATA=JSON.parse(document.getElementById('data').textContent);
+const $=id=>document.getElementById(id), corpus=DATA.documents.filter(d=>d.role==='corpus');
+const names={cosin:'코스인코리아',hwahae:'화해 비즈니스'};
+function element(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
+function link(doc){const a=element('a',doc.title);try{const u=new URL(doc.url);if(['https:','http:'].includes(u.protocol)){a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';}}catch(e){}return a;}
+$('stamp').textContent='화면 생성 · '+DATA.generated;
+$('allCount').textContent=DATA.documents.length+'건';
+const years=new Set(corpus.map(d=>d.published_at.slice(0,4)));
+const hasYears=years.has('2025')&&years.has('2026');
+$('yearState').textContent=hasYears?'표본 검토 필요':'비교 자료 부족';
+$('notice').textContent=hasYears?'양쪽 연도 자료가 있습니다. 월별 표본 수와 수집 범위를 확인한 후 비교하세요.':'현재 자료만으로 2026년 트렌드를 확정할 수 없습니다. 전년 같은 기간 자료와 독립적인 추가 출처를 확보해야 합니다.';
+for(const id of [...new Set(corpus.map(d=>d.source))].sort()){const o=element('option',names[id]||id);o.value=id;$('source').append(o);}
+for(const month of [...new Set(corpus.map(d=>d.published_at.slice(0,7)))].sort().reverse()){const o=element('option',month);o.value=month;$('month').append(o);}
+const coverage=new Map();for(const d of DATA.documents){const k=[d.source,d.published_at.slice(0,7),d.role].join('|');coverage.set(k,(coverage.get(k)||0)+1);}
+for(const [key,count] of [...coverage].sort()){const [source,month,role]=key.split('|'),tr=element('tr');for(const value of [names[source]||source,month,role==='corpus'?'기사':'참고',count+'건'])tr.append(element('td',value));$('coverage').append(tr);}
+for(const d of DATA.documents.filter(d=>d.role!=='corpus')){const p=element('p');p.append(element('span',d.published_at+' · '),link(d));$('references').append(p);}
+if(!$('references').childElementCount)$('references').textContent='저장된 참고 자료가 없습니다.';
+function render(){
+ const search=$('search').value.trim().toLowerCase();
+ const docs=corpus.filter(d=>(!$('source').value||d.source===$('source').value)&&(!$('month').value||d.published_at.startsWith($('month').value))&&(!search||d.title.toLowerCase().includes(search))&&(!$('anua').checked||d.anua));
+ $('articleCount').textContent=docs.length+'건';$('brandCount').textContent=docs.filter(d=>d.anua).length+'건';$('listCount').textContent=docs.length+'건';
+ $('bars').replaceChildren();$('articles').replaceChildren();
+ const counts=DATA.keywords.map(k=>({key:k,count:docs.filter(d=>d.keywords.includes(k)).length})).filter(x=>x.count>0).sort((a,b)=>b.count-a.count);
+ if(!counts.length)$('bars').append(element('div','선택한 범위에서 집계할 키워드가 없습니다.','empty'));
+ for(const item of counts){const pct=100*item.count/docs.length,row=element('div',undefined,'bar-row'),track=element('div',undefined,'track'),fill=element('div',undefined,'fill');fill.style.width=pct+'%';track.append(fill);row.append(element('span',item.key,'bar-label'),track,element('span',item.count+'건 · '+pct.toFixed(1)+'%','value'));$('bars').append(row);}
+ for(const d of docs.sort((a,b)=>b.published_at.localeCompare(a.published_at))){const tr=element('tr'),title=element('td'),tags=element('td');title.append(link(d));for(const k of d.keywords)tags.append(element('span',k,'tag'));if(!d.keywords.length)tags.textContent='사전 키워드 없음';tr.append(element('td',d.published_at,'date'),title,tags);$('articles').append(tr);}
+ if(!docs.length){const tr=element('tr'),td=element('td','조건에 맞는 기사가 없습니다. 필터를 변경하거나 자료를 추가로 수집하세요.');td.colSpan=3;tr.append(td);$('articles').append(tr);}
+}
+for(const id of ['source','month','search','anua'])$(id).addEventListener('input',render);
+$('reset').addEventListener('click',()=>{for(const id of ['source','month','search'])$(id).value='';$('anua').checked=false;render();});
+render();
+</script></body></html>

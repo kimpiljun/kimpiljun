@@ -1,0 +1,45 @@
+{
+  "delay_seconds": 2,
+  "sources": [
+    {
+      "id": "cosin",
+      "name": "코스인코리아",
+      "role": "corpus",
+      "origin": "https://www.cosinkorea.com",
+      "listing": "https://www.cosinkorea.com/news/article_list_all.html?page={page}",
+      "article_pattern": "/news/article\\.html\\?no=\\d+",
+      "body_selector": "#news_body_area",
+      "title_selector": "h2"
+    },
+    {
+      "id": "hwahae",
+      "name": "화해 비즈니스",
+      "role": "context",
+      "origin": "https://business.hwahae.co.kr",
+      "seeds": ["https://business.hwahae.co.kr/insight/trendreport-26-3q-trend-snap/"],
+      "body_selector": "section.sec",
+      "title_selector": "h1"
+    }
+  ],
+  "relevance_terms": ["피부", "스킨케어", "화장품", "세럼", "토너", "크림", "뷰티", "보습", "진정"],
+  "stopwords": ["기자", "코스인코리아닷컴", "코스인", "통해", "대한", "위한", "있는", "있다", "한다", "했다", "밝혔다", "이번", "제품", "화장품", "뷰티", "관련", "다양한", "글로벌", "브랜드", "국내", "출시", "기반", "제공", "강화", "대표", "피부"],
+  "brands": {"아누아": ["아누아", "anua", "더파운더즈"]},
+  "keywords": {
+    "PDRN": ["pdrn", "피디알엔", "폴리데옥시리보뉴클레오티드"],
+    "피부 장벽": ["피부장벽", "장벽", "스킨배리어"],
+    "진정": ["진정", "수딩"],
+    "보습": ["보습", "수분공급", "하이드레이팅"],
+    "저자극": ["저자극", "민감성", "민감피부"],
+    "슬로우에이징": ["슬로우에이징", "슬로에이징", "웰에이징"],
+    "레티노이드": ["레티놀", "레티날", "레티노이드"],
+    "나이아신아마이드": ["나이아신아마이드", "나이아신마이드", "니아신아마이드"],
+    "비타민C": ["비타민c", "비타민씨", "아스코빅애씨드"],
+    "색소·피부톤": ["미백", "브라이트닝", "잡티", "색소침착", "피부톤"],
+    "어성초": ["어성초", "houttuynia"],
+    "세라마이드": ["세라마이드", "ceramide"],
+    "히알루론산": ["히알루론산", "히알루로닉애씨드"],
+    "마이크로바이옴": ["마이크로바이옴", "microbiome"],
+    "엑소좀": ["엑소좀", "exosome"],
+    "홈케어": ["홈케어", "뷰티디바이스", "홈뷰티"]
+  }
+}
